@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class SendFormTest {
     @Test
     void SendFormTestV1() {
-        open("http://localhost:9999");
+        $("[data-test-id=name] input").setValue("Сергей Новиков");
 
         }
 
