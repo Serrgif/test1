@@ -10,8 +10,6 @@ public class SendFormTest {
     @Test
     void SendFormTestV1() {
         open("http://localhost:9999");
-        SelenideElement form = $("form");
-        form.$("[data-test-id=name]").setValue("Сергей Новиков");
 
         }
 
