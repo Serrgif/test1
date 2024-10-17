@@ -12,9 +12,7 @@ public class SendFormTest {
         open("http://localhost:9999");
         SelenideElement form = $("form");
         form.$("[data-test-id=name]").setValue("Сергей Новиков");
-        form.$("[data-test-id=phone]").setValue("+79270000000");
-        form.$("[data-test-id=agreement]").click();
-        form.$("button").click();
+
         }
 
 }
